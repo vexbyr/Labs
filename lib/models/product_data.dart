@@ -1,0 +1,16 @@
+import 'product.dart';
+
+const List<Product> initialProducts = [
+  Product(id: 1, title: 'Everyday Tee', category: 'Tops', price: 24.00, rating: 4.8, imageUrl: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85', description: 'A soft cotton T-shirt with a relaxed everyday fit.'),
+  Product(id: 2, title: 'Studio Hoodie', category: 'Tops', price: 58.00, rating: 4.9, imageUrl: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85', description: 'A cozy oversized hoodie made for slow mornings and city walks.'),
+  Product(id: 3, title: 'Denim Mood', category: 'Bottoms', price: 72.00, rating: 4.7, imageUrl: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=85', description: 'Classic blue denim with a comfortable straight-leg shape.'),
+  Product(id: 4, title: 'Soft Knit', category: 'Tops', price: 64.00, rating: 4.6, imageUrl: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=900&q=85', description: 'A soft knit layer that works from weekdays to weekends.'),
+  Product(id: 5, title: 'City Sneakers', category: 'Shoes', price: 89.00, rating: 4.9, imageUrl: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85', description: 'Everyday sneakers with a bold silhouette and cushioned sole.'),
+  Product(id: 6, title: 'Weekend Jacket', category: 'Tops', price: 96.00, rating: 4.8, imageUrl: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85', description: 'A versatile jacket that adds an easy finishing touch.'),
+  Product(id: 7, title: 'Wide Leg Pants', category: 'Bottoms', price: 68.00, rating: 4.5, imageUrl: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=900&q=85', description: 'Relaxed wide-leg trousers with a clean, tailored look.'),
+  Product(id: 8, title: 'Daily Tote', category: 'Accessories', price: 34.00, rating: 4.7, imageUrl: 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=85', description: 'A roomy tote bag for everything you carry through the day.'),
+  Product(id: 9, title: 'Sunday Look', category: 'Tops', price: 52.00, rating: 4.6, imageUrl: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=85', description: 'An effortless outfit for relaxed plans and sunny afternoons.'),
+  Product(id: 10, title: 'Classic Shades', category: 'Accessories', price: 29.00, rating: 4.4, imageUrl: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=85', description: 'Timeless sunglasses with a lightweight frame.'),
+  Product(id: 11, title: 'Runner Club', category: 'Shoes', price: 84.00, rating: 4.8, imageUrl: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85', description: 'A sporty pair for active days and casual outfits.'),
+  Product(id: 12, title: 'Layering Shirt', category: 'Tops', price: 46.00, rating: 4.5, imageUrl: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=85', description: 'A clean button-up shirt that is easy to layer.'),
+];
